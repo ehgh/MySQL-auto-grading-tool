@@ -3,12 +3,12 @@ Runs queries from a *.sql file and compare the output to Solution.sql queries ou
 
 Here, is the directory setting:
 dir:
-    -- auto_grade.py
-    -- Solution.sql
-    -- database.sql files (files to import databases)
-    -- s1/s2/s3/... (directory for various groups)
-        -- submissions (directory for groups of *.sql files that include queries to be tested and graded a.k.a student                                 submissions) 
-        -- grade_notes (directory to store feedback files created by script)
+    - auto_grade.py
+    - Solution.sql
+    - database.sql files (files to import databases)
+    - s1/s2/s3/... (directory for various groups)
+        - submissions (directory for groups of *.sql files that include queries to be tested and graded a.k.a student                                 submissions) 
+        - grade_notes (directory to store feedback files created by script)
 
 install required packages:
   - pymysql
