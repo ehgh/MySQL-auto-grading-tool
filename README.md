@@ -6,7 +6,7 @@ dir:\
     - auto_grade.py\
     - Solution.sql\
     - database.sql files (files to import databases)\
-    - s1/s2/s3/... (directory for various groups)\
+    - s1 (directory for various groups/classes)\
     - s1/submissions (directory for groups of *.sql files that include queries to be tested and graded a.k.a student submissions)\
     - s1/grade_notes (directory to store feedback files created by script)
 
