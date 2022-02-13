@@ -1,7 +1,7 @@
-# MySQL-auto-grading
+# MySQL-auto-grading tool
 Runs queries from a <*.sql> file and compare the output to <Solution.sql> queries output and create feedback file and grade on queries. 
 
-Here, is the directory setting:
+Directory setting:
 dir:\
     - auto_grade.py\
     - Solution.sql\
@@ -10,7 +10,7 @@ dir:\
     - s1/submissions (directory for groups of *.sql files that include queries to be tested and graded a.k.a student submissions)\
     - s1/grade_notes (directory to store feedback files created by script)
 
-install required packages:
+Required packages:
   - pymysql
   - warnings
   - subprocess
@@ -18,4 +18,4 @@ install required packages:
 
 
 Modify auto_grade.py file to your specific assignment (Parts that need modification in auto_grade.py is marked by <some_modification>) and run:\
-  python3 auto_grade.py
+  `python3 auto_grade.py`
